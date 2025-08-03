@@ -317,11 +317,14 @@ img{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
     img{
-        /* width: 300px;
-        max-width: 300px; */
-        width: 100%;
-        max-width: 100%;
+
+        @media screen and (min-width: 1380px) {
+        width: 300px;
+        max-width: 300px;
         height: auto;
+
+        }
+  
     }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
